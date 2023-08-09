@@ -2,7 +2,8 @@ class Solution {
 public:
     int subtractProductAndSum(int n) {
       int sum=0;
-      int product=1;
+      
+        int product=1;
 int digit1=n;
 int digit2=n;
       while(digit1>0){
